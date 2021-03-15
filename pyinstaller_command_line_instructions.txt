@@ -1,0 +1,5 @@
+From: https://stackoverflow.com/a/47780274/8294916
+
+Run this from console - point it to wherever the binary path is.
+
+pyinstaller -F --add-binary "chromedriver.exe";"." main.py
